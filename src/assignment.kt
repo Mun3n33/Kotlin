@@ -1,10 +1,12 @@
 import java.util.Scanner
 
 fun main(){
-    var reader=Scanner(System.`in`)
+    var read =Scanner(System.`in`)
+
+
 
     println("Enter letter:")
-    var letter = reader.next().single()
+    var letter = read.next().single()
 
     if (letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u'){
         println("$letter is not consonant")
